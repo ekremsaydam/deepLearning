@@ -1,6 +1,9 @@
-# This Python 3 environment comes with many helpful analytics libraries installed
-# It is defined by the kaggle/python docker image: https://github.com/kaggle/docker-python
-# For example, here's several helpful packages to load in
+# https://www.python.org/ftp/python/3.11.5/python-3.11.5-amd64.exe
+
+# python -m pip install --upgrade pip
+# python -m pip install numpy
+# python -m pip install matplotlib
+# python -m pip install scikit-learn
 
 import warnings
 
