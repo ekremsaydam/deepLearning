@@ -94,7 +94,7 @@ def build_model():
         # optimizer=optimizers.Adam(learning_rate=1e-3),
         loss=tf.keras.losses.BinaryCrossentropy(),
         # loss=losses.BinaryCrossentropy(),
-        metrics=[tf.keras.metrics.BinaryAccuracy()])
+        metrics=[tf.keras.metrics.BinaryAccuracy.__name__])
     # metrics=[metrics.BinaryAccuracy()])
     return _model
 
